@@ -9,7 +9,7 @@
     justify-content: space-around;
     align-items: flex-start;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 
@@ -34,15 +34,15 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: #cfecf7;
 }
 
 .info-page-inner-circle{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 165px;
+    height: 165px;
     border-radius: 50%;
     background-color: white;
 }
@@ -52,6 +52,36 @@
     font-size: 18px;
 }
 
+.flower{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: chocolate;
+    border-radius: 10px;
+    margin-top: 100px;
+    bottom: 48%;
+}
+
+.flower::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background: chocolate;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+    transform: rotate(60deg);
+}
+
+.flower::after{
+    content: "";
+    display: block;
+    background: chocolate;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+    transform: rotate(-60deg);
+}
 /* --------------------------------------------------------- */
 
 .badge{
@@ -119,4 +149,36 @@
     top: 20%;
     right:10%;
     transform: rotate(-30deg);
+}
+
+.flower1{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: brown;
+    border-radius: 10px;
+    margin-top: 100px;
+    top: -20%;
+    right: 10%;
+}
+
+.flower1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background: brown;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+    transform: rotate(60deg);
+}
+
+.flower1::after{
+    content: "";
+    display: block;
+    background: brown;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+    transform: rotate(-60deg);
 }

@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    /* position: inherit; */
+    position: relative;
 }
 
 .heading-card{
@@ -24,7 +24,10 @@
     align-items: center;
     width: 40%;
     height: 70%;
-    /* background-color: cadetblue; */
+}
+
+.img{
+    border-radius: 15px;
 }
 
 .app-store-cont{
@@ -92,33 +95,32 @@
 
 .icon {
     position: absolute;
-    /* width: 24px;
-    height: 24px; */
     fill: black;
   }
   
   .i-1 {
-    top: 95%;
-    left: 48%;
+    bottom: 8.5%;
+    left: 11.5%;
   }
   
   .i-2 {
-    top: 45%;
-    left: 95%;
+    bottom: 12.5%;
+    right: 12.5%;
   }
   
   .i-3 {
     top: 45%;
-    left: 0%;
+    left: -1.5%;
   }
   
-  /* .i-4 {
-    top: 0%;
-    left: 48%;
-  } */
   .i-4 {
-    top: 12.5%;
+    top: 13%;
     left: 12.5%;
+  }
+
+  .i-5 {
+    top: 10%;
+    right: 10.5%;
   }
 
 /* ------------- animated small divs ------------------------- */
@@ -126,7 +128,7 @@
 .semi-circle-1{
     position: absolute;
     top: 73%;
-    left: 3%;
+    left: 0%;
     height: 30px;
     width: 15px;
     border-top-right-radius: 15px;
@@ -166,26 +168,14 @@
     background-color: #ff4433;
 }
 
-/* .leaf-1{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 0 100px 10px 0; 
-    transform: rotate(-220deg); 
-    overflow: hidden; 
-    background-color: green;
-    top: 0%;
-    left: 20%;
-} */
-
 .landing-page-halfOval {
     position: absolute;
     width: 150px;
     height: 30px;
     background: radial-gradient(ellipse at 50% 100%, #00A86B 70%, transparent 70%);
-    top: 9%;
+    top: -4%;
     left: 20%;
-    transform: rotate(-30deg);
+    transform: rotate(-50deg);
 }
 
 .landing-page-small-halfOval1 {
@@ -214,6 +204,64 @@
     height: 35px;
     border-radius: 50%;
     background-color:#ffb3a7;
-    top: 9%;
+    top: -2%;
     right: 10%;
+}
+
+.ghost1{
+    height: 16px;
+    width: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    position: absolute;
+}
+
+.big-ghost{
+    height: 60px;
+    width: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.blue{
+    background-color: #62c1e5;
+}
+
+.orange{
+    background-color: #e6574a;
+}
+
+.pink{
+    background-color: #DB7FB6;
+}
+
+.big-blue{
+    background-color: #a0d9ef;
+}
+
+.big-pink{
+    background-color: #E6A8D7;
+}
+
+.tilt-1{
+    transform: rotate(6deg);
+}
+
+.tilt-2{
+    transform: rotate(180deg);
+}
+
+.tilt-3{
+    transform: rotate(230deg);
+}
+
+.tilt-4{
+    transform: rotate(20deg);
+}
+
+.tilt-5{
+    transform: rotate(60deg);
 }

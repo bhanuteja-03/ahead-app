@@ -122,23 +122,12 @@ export const LandingPage=()=>{
             </div>
             <div class="circular-path">
                 <div className="bgPic img"></div>
-                <img className="img" src="https://picsum.photos/200/300.jpg" alt="Trulli"/>
-                <img className="icon i-1" src="https://res.cloudinary.com/dpdfymgri/image/upload/v1708242333/rvzm9av4hw7aa48ykwpn.jpg" alt="" width={"50px"}/>
-                <img className="icon i-2" src="https://res.cloudinary.com/dpdfymgri/image/upload/v1708242333/rvzm9av4hw7aa48ykwpn.jpg" alt="" width={"50px"}/>
-                <img className="icon i-3" src="https://res.cloudinary.com/dpdfymgri/image/upload/v1708242333/rvzm9av4hw7aa48ykwpn.jpg" alt="" width={"50px"}/>
-                <img className="icon i-4" src="https://res.cloudinary.com/dpdfymgri/image/upload/v1708242333/rvzm9av4hw7aa48ykwpn.jpg" alt="" width={"50px"}/>
-                {/* <svg className="icon i-1" viewBox="0 0 24 24">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
-                </svg> */}
-                {/* <svg className="icon i-2" viewBox="0 0 24 24">
-                <path d="M20 6H4v2h16V6zM4 14h16v-2H4v2z"></path>
-                </svg> 
-                <svg className="icon i-3" viewBox="0 0 24 24">
-                <path d="M10 20H8v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zM4 6h16V4H4v2z"></path>
-                </svg>
-                <svg className="icon i-4" viewBox="0 0 24 24">
-                <path d="M12 14.42l3.89 2.34-1-4.28 3.34-2.89-4.42-.38L12 5 9.19 9.21l-4.42.38 3.34 2.89-1 4.28z"></path>
-                </svg> */}
+                <img className="img" src="https://res.cloudinary.com/dpdfymgri/image/upload/v1708283097/Screenshot_2024-02-19_003412_pc0uun.png" alt="Trulli" height={"400px"}/>
+                <div className="big-ghost big-pink tilt-1 i-1"></div>
+                <div className="ghost1 orange tilt-5 i-2"></div>
+                <div className="ghost1 pink tilt-2 i-3"></div>
+                <div className="ghost1 blue tilt-3 i-4"></div>
+                <div className="big-ghost big-blue tilt-4 i-5"></div>
             </div>
         </div>
     )

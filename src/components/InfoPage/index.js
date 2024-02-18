@@ -35,7 +35,7 @@ export const InfoPage=()=>{
             ease: "power3.out",
         },{ scope: container2 });
 
-        gsap.from(".badge", {
+        gsap.from(".flower", {
             scrollTrigger:{
                 trigger:".info-page-para ",
                 toggleActions: "restart none none restart",
@@ -80,7 +80,7 @@ export const InfoPage=()=>{
             ease: "power4.out",
         },{ scope: container2 });
 
-        gsap.from(".halfOval1", {
+        gsap.from([".halfOval1", ".flower1"], {
             scrollTrigger:{
                 trigger:".info-page-para ",
                 toggleActions: "restart none none restart",
@@ -100,13 +100,14 @@ export const InfoPage=()=>{
             </div>
             <div className="halfOval"></div>
             <div className="info-page-small-circle"></div>
+            <div className="flower1"></div>
             <p className="info-page-para remove-margin">Built out of Frustration</p>
             <h1 className="remove-margin heading2">Meet the ahead App</h1>
             <div className="info-page-card">
                 <div className="info-page-animation">
                     <div className="info-page-inner-circle">
-                        <LuBadgeDollarSign className="badge"/>
-                        <img className="info-page-icon" src="https://assets.ccbp.in/frontend/react-js/stars-count-img.png" alt="star"/>
+                        <div className="flower"></div>
+                        <img className="info-page-icon" src="https://res.cloudinary.com/dpdfymgri/image/upload/v1708242333/rvzm9av4hw7aa48ykwpn.jpg" alt="star" width={"90px"}/>
                     </div>
                 </div>
                 <div className="info-page-description">

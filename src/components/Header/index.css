@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    list-style-type: none;
+}
+
+.nav-btn{
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-width: 0px;
+    border-radius: 25px;
+    padding: 12px;
+}

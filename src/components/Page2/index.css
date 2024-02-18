@@ -1,0 +1,55 @@
+
+
+.page-2{
+    height: 90vh;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: inherit;
+}
+
+.heading2{
+    font-size: 48px;
+}
+
+.facts-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-margin{
+    padding: 0px;
+    margin: 0px;
+}
+
+.facts{
+    width: 20%;
+}
+
+.page2-card-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw;
+    margin-left:-210px;
+    overflow: hidden;
+}
+
+.page2-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 15px;
+    flex-shrink: 0;
+    transition: background-color 0.3s; /* Add a transition for the transform property */
+  }
+  
+
+
+.tilted {
+    transform: rotate(-3deg);
+  }

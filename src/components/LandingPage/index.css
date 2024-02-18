@@ -1,0 +1,219 @@
+.landing-1{
+    height: 90vh;
+    border-radius: 35px;
+    background-color: #f5eff5;
+    padding-left: 60px;
+    padding-right: 30px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    /* position: inherit; */
+}
+
+.heading-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.image-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 70%;
+    /* background-color: cadetblue; */
+}
+
+.app-store-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-store-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-store-card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stars-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+}
+
+.download-app-text{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+
+.download-app{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-title{
+    font-size: 42px;
+}
+
+.bgPic{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #e1d0e1;
+    z-index: -1;
+}
+
+/* ---------------------------------------------------------*/
+
+.circular-path {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.icon {
+    position: absolute;
+    /* width: 24px;
+    height: 24px; */
+    fill: black;
+  }
+  
+  .i-1 {
+    top: 95%;
+    left: 48%;
+  }
+  
+  .i-2 {
+    top: 45%;
+    left: 95%;
+  }
+  
+  .i-3 {
+    top: 45%;
+    left: 0%;
+  }
+  
+  /* .i-4 {
+    top: 0%;
+    left: 48%;
+  } */
+  .i-4 {
+    top: 12.5%;
+    left: 12.5%;
+  }
+
+/* ------------- animated small divs ------------------------- */
+
+.semi-circle-1{
+    position: absolute;
+    top: 73%;
+    left: 3%;
+    height: 30px;
+    width: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ffb3a7;
+}
+
+.semi-circle-2{
+    position: absolute;
+    bottom:0%;
+    left: 30%;
+    height: 20px;
+    width: 40px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #ffb3a7;
+}
+
+.outer-circle{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ffd5b6;
+    top: 30%;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ff4433;
+}
+
+/* .leaf-1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 100px 10px 0; 
+    transform: rotate(-220deg); 
+    overflow: hidden; 
+    background-color: green;
+    top: 0%;
+    left: 20%;
+} */
+
+.landing-page-halfOval {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background: radial-gradient(ellipse at 50% 100%, #00A86B 70%, transparent 70%);
+    top: 9%;
+    left: 20%;
+    transform: rotate(-30deg);
+}
+
+.landing-page-small-halfOval1 {
+    position: absolute;
+    width: 50px;
+    height: 13px;
+    background: radial-gradient(ellipse at 50% 100%, #00A86B 70%, transparent 70%);
+    top: 23%;
+    left:44%;
+    transform: rotate(30deg);
+}
+
+.landing-page-single-circle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffb3a7;
+    top: 18%;
+    right: 49%;
+}
+
+.landing-page-single-circle1{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:#ffb3a7;
+    top: 9%;
+    right: 10%;
+}

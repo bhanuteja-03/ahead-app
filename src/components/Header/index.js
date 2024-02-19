@@ -4,10 +4,10 @@ import './index.css'
 export const Header=()=>{
     return(
         <div className="header">
-            <MdEmojiEvents />
+            <img src="https://res.cloudinary.com/dpdfymgri/image/upload/v1708365146/ahead-icon_kazf1q.png" alt="icon" width={"40px"}/>
             <ul className="nav">
                 <li>Emotions</li>
-                <li>Menifesto</li>
+                <li>Manifesto</li>
                 <li>Self-awareness test</li>
                 <li>Work with us</li>
             </ul>

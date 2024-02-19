@@ -4,6 +4,7 @@ import { Page } from './components/Page2';
 import {InfoPage} from './components/InfoPage';
 import { StartTestPage } from './components/StartTestPage';
 import { WorkWithUs } from './components/WorkWithUs';
+import { Vacancies } from './components/Vacancies';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <InfoPage/>
       <StartTestPage/>
       <WorkWithUs/>
+      <Vacancies/>
     </div>
     </>
   );

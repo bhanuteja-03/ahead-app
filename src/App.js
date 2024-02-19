@@ -3,6 +3,7 @@ import { LandingPage } from './components/LandingPage';
 import { Page } from './components/Page2';
 import {InfoPage} from './components/InfoPage';
 import { StartTestPage } from './components/StartTestPage';
+import { WorkWithUs } from './components/WorkWithUs';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Page/>
       <InfoPage/>
       <StartTestPage/>
+      <WorkWithUs/>
     </div>
     </>
   );

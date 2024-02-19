@@ -1,4 +1,4 @@
-import { useRef,useState } from "react";
+import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger"; // Import ScrollTrigger
 import { useGSAP } from "@gsap/react";
